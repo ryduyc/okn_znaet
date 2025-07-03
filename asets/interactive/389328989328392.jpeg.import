@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://yri5ydyi4exn"
-path="res://.godot/imported/sana.png-951d5ac5d40e07ca6ee674df808b2f8e.ctex"
+uid="uid://detrlsfk3p865"
+path="res://.godot/imported/389328989328392.jpeg-79d8357495c956126477f793baa6f438.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asets/sana.png"
-dest_files=["res://.godot/imported/sana.png-951d5ac5d40e07ca6ee674df808b2f8e.ctex"]
+source_file="res://asets/interactive/389328989328392.jpeg"
+dest_files=["res://.godot/imported/389328989328392.jpeg-79d8357495c956126477f793baa6f438.ctex"]
 
 [params]
 

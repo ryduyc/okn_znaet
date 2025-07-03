@@ -1,0 +1,43 @@
+[gd_scene load_steps=4 format=3 uid="uid://clbfhh04k5dgl"]
+
+[ext_resource type="Texture2D" uid="uid://cym5xkalj36iq" path="res://asets/fon/0ace58924eaac57684bb073c3b779684.jpg" id="1_3sfvf"]
+[ext_resource type="Script" uid="uid://bfrjvty5ixeci" path="res://сцены/setings.gd" id="1_cibge"]
+[ext_resource type="Script" uid="uid://r5c1g5xvtmon" path="res://сцены/button_2.gd" id="3_txsy0"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cibge")
+
+[node name="0Ace58924Eaac57684Bb073c3b779684" type="Sprite2D" parent="."]
+position = Vector2(963.444, 543)
+scale = Vector2(1.00579, 1)
+texture = ExtResource("1_3sfvf")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 67.0
+offset_right = 584.0
+offset_bottom = 457.0
+
+[node name="HSlider" type="HSlider" parent="VBoxContainer"]
+layout_mode = 2
+tooltip_text = "Громкость"
+
+[node name="CheckBox" type="CheckBox" parent="VBoxContainer"]
+layout_mode = 2
+text = "Полноэкранный режим"
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Сохранить"
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Отмена"
+script = ExtResource("3_txsy0")

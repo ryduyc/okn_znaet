@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://fgojkp8yvpbb"]
+
+[ext_resource type="Texture2D" uid="uid://dgwnvs6d457u7" path="res://asets/fon/6141174183.jpg" id="1_52gyh"]
+[ext_resource type="Script" uid="uid://b8umkad65b8th" path="res://script/start.gd" id="2_kxh80"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="fon" type="Node" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="fon"]
+offset_right = 1941.0
+offset_bottom = 1086.0
+texture = ExtResource("1_52gyh")
+
+[node name="control" type="Node" parent="."]
+
+[node name="start" type="Button" parent="control"]
+offset_left = 1562.0
+offset_top = 56.0
+offset_right = 1887.0
+offset_bottom = 215.0
+text = "начать"
+script = ExtResource("2_kxh80")
