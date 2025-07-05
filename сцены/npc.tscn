@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://7hiky58emk7x"]
+
+[ext_resource type="Script" uid="uid://su6x73yc4hq0" path="res://script/sana1.gd" id="1_622d7"]
+[ext_resource type="Texture2D" uid="uid://yri5ydyi4exn" path="res://asets/piple/sana.png" id="1_grgdp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_622d7"]
+size = Vector2(445.5, 937.25)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sana" type="Area2D" parent="."]
+script = ExtResource("1_622d7")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sana"]
+texture = ExtResource("1_grgdp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sana"]
+position = Vector2(0, 181.625)
+shape = SubResource("RectangleShape2D_622d7")
+
+[node name="Label" type="Label" parent="Sana"]
+offset_right = 40.0
+offset_bottom = 23.0

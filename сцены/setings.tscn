@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://clbfhh04k5dgl"]
 
 [ext_resource type="Texture2D" uid="uid://cym5xkalj36iq" path="res://asets/fon/0ace58924eaac57684bb073c3b779684.jpg" id="1_3sfvf"]
-[ext_resource type="Script" uid="uid://bfrjvty5ixeci" path="res://сцены/setings.gd" id="1_cibge"]
-[ext_resource type="Script" uid="uid://r5c1g5xvtmon" path="res://сцены/button_2.gd" id="3_txsy0"]
+[ext_resource type="Script" uid="uid://bfrjvty5ixeci" path="res://script/setings.gd" id="1_cibge"]
+[ext_resource type="Script" uid="uid://r5c1g5xvtmon" path="res://script/button_2.gd" id="3_txsy0"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
